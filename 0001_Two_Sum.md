@@ -69,6 +69,4 @@ class Solution(object):
 
 Beats 90%+。
 
-[Reference](https://github.com/gausshuang/pyLeetcode/blob/main/0001_Two_Sum.md)
-[Reference1][1]
-[1]: https://github.com/gausshuang/pyLeetcode/blob/main/0001_Two_Sum.md "Reference1"
+[Reference](https://github.com/gausshuang/pyLeetcode/blob/main/0001_Two_Sum.md)[1]:https://github.com/gausshuang/pyLeetcode/blob/main/0001_Two_Sum.md 
