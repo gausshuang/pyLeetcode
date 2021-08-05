@@ -1,3 +1,5 @@
+import pprint
+
 class Solution(object):
   def twoSum(self, nums, target):
     """
@@ -5,11 +7,14 @@ class Solution(object):
     :type target: int
     :rtype: List[int]
     """
+    pprint.pprint( nums )
+    pprint.pprint( target )
     d = {}
-    for i, num in enumerate(nums):
+    for i, num in enumerate( nums ):
       if target - num in d:
-        return [d[target - num], i]
-      d[num] = i
+        pprint.pprint( d )
+        return [ d[ target - num ], i ]
+      d[ num ] = i
     # no special case handling because it's assumed that it has only one solution
 
 def main():
